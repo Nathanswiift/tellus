@@ -13,7 +13,7 @@ class RouteHandler:
     def route(self, endpoint, methods=['GET']):  
         """Decorator that is used to define routes.
         """ 
-        def route_wrapper(func, **kwargs):
+        def route_wrapper(func):
             self.routes[endpoint] = {
                         "methods": methods,
                         "function": func
