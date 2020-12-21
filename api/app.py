@@ -13,6 +13,6 @@ def first_task(method):
     return as_json(data)
 
 @app.route('/api/task/2', methods=['GET'])
-def second_tasl(method):
+def second_task(method):
     data = Task.two()
     return as_json(data)
