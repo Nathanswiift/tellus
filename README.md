@@ -1,2 +1,2 @@
 # tellus
-Tellus microframework
+Tellus 
